@@ -11,9 +11,9 @@ public class ForSample {
 
     }
         for(int i = 1;i <= 20; i++) {
-            if(i >20) {
+            if(i % 2 != 0) {
                 //現在の処理をスキップし、次の繰り返しに進む
-                break;
+                continue;
             }
             System.out.println(i);
         }
